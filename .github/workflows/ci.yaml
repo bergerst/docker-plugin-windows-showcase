@@ -22,9 +22,5 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
         architecture: x64
-    - name: Switch to Linux docker mode
-      run: |
-        dir "C:\Program Files"
-        "C:\Program Files\Docker\Docker\DockerCli.exe" -SwitchDaemon
     - name: Run mvn build
       run: mvn --batch-mode verify

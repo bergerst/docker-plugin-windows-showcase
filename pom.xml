@@ -36,12 +36,12 @@
         <configuration>
           <images>
             <image>
-              <name>nginx</name>
+              <name>mcr.microsoft.com/windows/servercore:ltsc2022</name>
               <alias>it-nginx</alias>
               <run>
                 <volumes>
                   <bind>
-                    <volume>./test.txt:/tmp/test.txt:ro</volume>
+                    <volume>./test.txt:C:\test.txt:ro</volume>
                   </bind>
                 </volumes>
               </run>
