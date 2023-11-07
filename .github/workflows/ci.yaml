@@ -2,9 +2,9 @@ name: CI
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - windows-container
     paths-ignore:
-      - '.github/**'
       - '.gitattributes'
       - '.gitignore'
       - '**/*.md'
