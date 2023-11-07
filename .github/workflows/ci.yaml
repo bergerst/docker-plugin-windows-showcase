@@ -22,5 +22,9 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
         architecture: x64
+    - name: Test docker
+      run: |
+        docker run -d --name servercore -v .\test.txt:C:\test.txt:ro mcr.microsoft.com/windows/servercore:ltsc2022
+        docker rm -f servercore
     - name: Run mvn build
       run: mvn --batch-mode verify
