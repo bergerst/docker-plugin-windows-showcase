@@ -36,7 +36,7 @@
         <configuration>
           <images>
             <image>
-              <name>dockerhub.repo.x-tention.com/nginx</name>
+              <name>nginx</name>
               <alias>it-nginx</alias>
               <run>
                 <volumes>
