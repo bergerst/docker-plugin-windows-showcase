@@ -41,7 +41,7 @@
               <run>
                 <volumes>
                   <bind>
-                    <volume>./test.txt:C:\test.txt:ro</volume>
+                    <volume>./test:C:\test:ro</volume>
                   </bind>
                 </volumes>
               </run>
