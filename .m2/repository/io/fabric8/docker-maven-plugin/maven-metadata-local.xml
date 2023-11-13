@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>io.fabric8</groupId>
+  <artifactId>docker-maven-plugin</artifactId>
+  <versioning>
+    <versions>
+      <version>0.44-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20231113083603</lastUpdated>
+  </versioning>
+</metadata>
