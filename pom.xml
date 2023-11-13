@@ -37,7 +37,7 @@
           <images>
             <image>
               <name>mcr.microsoft.com/windows/servercore:ltsc2022</name>
-              <alias>it-nginx</alias>
+              <alias>windows-server</alias>
               <run>
                 <volumes>
                   <bind>
